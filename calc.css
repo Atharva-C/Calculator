@@ -1,0 +1,112 @@
+body {
+    background-color: #915c5c;
+    padding: 2px;
+  }
+
+.heading{
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+  .calculator-container {
+    width: 450px;
+    height: 530px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .calculator {
+    padding: 20px;
+    background-color: #56350d;
+  }
+  
+  .display {
+    background-color: #55a97d;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2px;
+  }
+  
+  .display input {
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+.btnr0{
+    background-color: #ccc;    
+    margin-top: 7px;
+    margin-bottom: -5px;
+    font-size: 25px;
+    border-radius: 16px;
+    display: inline-block;
+    width: 203px;
+    height: 75px;
+}
+.btnr1{
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    color: white;
+    display: block;
+    width: 96px;
+    height: 75px;
+    margin: 3px;
+    border-radius: 16px;
+}
+.btnr2{
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 96px;
+    height: 75px;
+    margin: 3px;
+    border-radius: 16px;
+}
+.btnr3{
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 96px;
+    height: 75px;
+    margin: 3px;
+    border-radius: 16px;
+}
+.btnr4{
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 96px;
+    height: 75px;
+    margin: 3px;
+    border-radius: 16px;
+}
+#btnDivide{
+    background-color: rgb(235, 176, 68);
+}
+#btnMultiply{
+    background-color: rgb(235, 176, 68);
+}
+#btnSubtract{
+    background-color: rgb(235, 176, 68);
+}
+#btnEquals{
+    background-color: rgb(235, 176, 68);
+}
